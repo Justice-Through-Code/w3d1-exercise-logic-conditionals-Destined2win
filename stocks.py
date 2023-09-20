@@ -44,7 +44,7 @@ def stock_purchases():
     else:
      print("Invalid stock name entered.")
      return
-    #shares_to_buy = 0  # Set shares_to_buy to 0 for invalid stock names
+    shares_to_buy = 0  # Set shares_to_buy to 0 for invalid stock names
 
     # 1.5 TODO: Once you've calculated the number of stocks that can be purchased,
     # Use an f-string to print the result for the client, ala:
