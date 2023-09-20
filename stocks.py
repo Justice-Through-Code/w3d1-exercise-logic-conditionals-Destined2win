@@ -15,7 +15,7 @@ def stock_purchases():
     # NOTE: When you use the `input` function to get user input, what do numbers get saved as?
     investment_amount_str = input("How much would you like to invest? $")
 
-    investment_amount = float(investment_amount_str)
+    investment_amount = int(investment_amount_str)
 
     # 1.3 TODO: Uncomment the line below to ask the client which stock they're interested in.
     # NOTE: Take a look at how this input string prints out
@@ -44,7 +44,7 @@ def stock_purchases():
     else:
      print("Invalid stock name entered.")
      return
-    shares_to_buy = 0  # Set shares_to_buy to 0 for invalid stock names
+    # shares_to_buy = 0  # Set shares_to_buy to 0 for invalid stock names
 
     # 1.5 TODO: Once you've calculated the number of stocks that can be purchased,
     # Use an f-string to print the result for the client, ala:
